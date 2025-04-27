@@ -54,3 +54,14 @@ C:\Users\Sindauto\Desktop\AgendamentoAPI\AgendamentoAPI\bin\Debug\net8.0\Supabas
 C:\Users\Sindauto\Desktop\AgendamentoAPI\AgendamentoAPI\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
 C:\Users\Sindauto\Desktop\AgendamentoAPI\AgendamentoAPI\bin\Debug\net8.0\System.Reactive.dll
 C:\Users\Sindauto\Desktop\AgendamentoAPI\AgendamentoAPI\bin\Debug\net8.0\Websocket.Client.dll
+C:\Users\mv834\Desktop\AgendamentoAPi\AgendamentoApi\obj\Debug\net8.0\AgendamentoAPI.csproj.AssemblyReference.cache
+C:\Users\mv834\Desktop\AgendamentoAPi\AgendamentoApi\obj\Debug\net8.0\AgendamentoAPI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mv834\Desktop\AgendamentoAPi\AgendamentoApi\obj\Debug\net8.0\AgendamentoAPI.AssemblyInfoInputs.cache
+C:\Users\mv834\Desktop\AgendamentoAPi\AgendamentoApi\obj\Debug\net8.0\AgendamentoAPI.AssemblyInfo.cs
+C:\Users\mv834\Desktop\AgendamentoAPi\AgendamentoApi\obj\Debug\net8.0\AgendamentoAPI.csproj.CoreCompileInputs.cache
+C:\Users\mv834\Desktop\AgendamentoAPi\AgendamentoApi\obj\Debug\net8.0\AgendamentoAPI.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\mv834\Desktop\AgendamentoAPi\AgendamentoApi\obj\Debug\net8.0\AgendamentoAPI.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\mv834\Desktop\AgendamentoAPi\AgendamentoApi\obj\Debug\net8.0\AgendamentoAPI.sourcelink.json
+C:\Users\mv834\Desktop\AgendamentoAPi\AgendamentoApi\obj\Debug\net8.0\AgendamentoAPI.dll
+C:\Users\mv834\Desktop\AgendamentoAPi\AgendamentoApi\obj\Debug\net8.0\refint\AgendamentoAPI.dll
+C:\Users\mv834\Desktop\AgendamentoAPi\AgendamentoApi\obj\Debug\net8.0\AgendamentoAPI.pdb

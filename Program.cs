@@ -1,17 +1,9 @@
-using AgendamentoAPI.Infraestutura;
+using AgendamentoAPI.Interface;
 using AgendamentoAPI.Repository;
+using AgendamentoAPI.Services;
 var builder = WebApplication.CreateBuilder(args);
 
 
-
-var configuration = builder.Configuration.GetSection("supabase");
-var url = configuration["url"];
-var key = configuration["key"];
-
-if (string.IsNullOrEmpty(url) || string.IsNullOrEmpty(key))
-{
-    throw new Exception("Supabase URL or Key is not configured.");
-}
 
 
 // Add services to the container.
@@ -21,7 +13,11 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-builder.Services.AddTransient<IRepository, Infra>();
+
+
+builder.Services.AddScoped<IProfissionalRepository, ProfissionalRepositorio>();
+builder.Services.AddSingleton<SupabaseService>();
+
 
 var app = builder.Build();
 

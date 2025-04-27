@@ -1,5 +1,4 @@
 ﻿
-using System.ComponentModel.DataAnnotations.Schema;
 using Supabase.Postgrest.Attributes;
 using Supabase.Postgrest.Models;
 using ColumnAttribute = Supabase.Postgrest.Attributes.ColumnAttribute;
@@ -9,7 +8,7 @@ using TableAttribute = System.ComponentModel.DataAnnotations.Schema.TableAttribu
 namespace AgendamentoAPI.Models
 {
     [Table("profissionais")]
-    public class _ProfissionaisController : BaseModel
+    public class profissionais : BaseModel
     {
 
         [PrimaryKey("id")]
@@ -19,6 +18,16 @@ namespace AgendamentoAPI.Models
 
         [Column("nome")]
         public string Nome { get; set; }
+
+        [Column("cpf")]
+
+        public string cpf { get; set; }
+
+        [Column("datanascimento")]
+        public DateTime DataNascimento { get; set; }
+
+        [Column("email")]
+        public string Email { get; set; }
 
         [Column("telefone")]
         public string Telefone { get; set; }
@@ -33,21 +42,5 @@ namespace AgendamentoAPI.Models
         public DateTime Disponibilidade { get; set; }
 
         public List<TipoServico> TiposServicos { get; set; }
-
-        public _ProfissionaisController(string areaatuacao, DateTime disponibilidade)
-        {
-            Areaatuacao = areaatuacao;
-            Disponibilidade = disponibilidade;
-        }
-
-        internal static void Add(_ProfissionaisController profissionais)
-        {
-            throw new NotImplementedException();
-        }
-
-        internal static void SaveChanges(Action<_ProfissionaisController> add)
-        {
-            throw new NotImplementedException();
-        }
     }
 }

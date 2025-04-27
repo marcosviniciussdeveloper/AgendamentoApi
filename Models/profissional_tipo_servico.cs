@@ -17,6 +17,6 @@ namespace AgendamentoAPI.Models
         public int TipoServicoId { get; set; }
 
         public TipoServico TipoServico { get; set; }
-        public _ProfissionaisController Profissional { get; set; }
+        public profissionais Profissional { get; set; }
     }
 }

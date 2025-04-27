@@ -1,5 +1,5 @@
 ﻿using AgendamentoAPI.Models;
-using AgendamentoAPI.Repository;
+
 using Microsoft.AspNetCore.Mvc;
 
 namespace AgendamentoAPI.Controllers
@@ -8,35 +8,12 @@ namespace AgendamentoAPI.Controllers
     [Route("api/v1/profisionais]")]
     public class ProfissionaisController : ControllerBase
     {
-        private readonly IRepository _repository;
 
-        public ProfissionaisController(IRepository repository)
+        [HttpGet]
+        public async Task<IActionResult> GetProfissionais()
         {
-            _repository = repository;
+            var profissionais = await _supabase.Profissionais.Get();
+            return Ok(profissionais);
         }
 
-        [HttpPost]
-        public IActionResult Add([FromBody] _ProfissionaisController profissionalView)
-        {
-            if (profissionalView == null)
-            {
-                return BadRequest("Profissional data is required.");
-            }
-
-            var profissionais = new _ProfissionaisController
-            {
-                Nome = profissionalView.Nome,
-                Telefone = profissionalView.Telefone,
-                Areaatuacao = profissionalView.Areaatuacao,
-                Especialidade = profissionalView.Especialidade,
-                Disponibilidade = profissionalView.Disponibilidade
-            };
-
-          
-            _repository.Add(profissionais);
-            _repository.SaveChanges();
-
-            return CreatedAtAction(nameof(Add), new { id = profissionais.Id }, profissionais);
-        }
-    }
 }

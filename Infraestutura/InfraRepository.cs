@@ -1,16 +1,15 @@
 ﻿using AgendamentoAPI.Models;
-using AgendamentoAPI.Repository;
 
 
 namespace AgendamentoAPI.Infraestutura
 {
-    public class Infra : IRepository
+    public class InfraRepository : IRepository
     {
-        private readonly ConnectionContext _supabase = new ConnectionContext();
+        private readonly ConnectionContext _context = new ConnectionContext();
 
         public void Add(_ProfissionaisController profissionais)
         {
-            _supabase.Profissionais.Add(profissionais);
+            co.Profissionais.Add(profissionais);
             _supabase.SaveChanges();
         }
 
