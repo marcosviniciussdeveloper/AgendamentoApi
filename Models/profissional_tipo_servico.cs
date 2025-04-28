@@ -1,19 +1,17 @@
-﻿using Supabase.Postgrest;
-using Supabase.Postgrest.Attributes;
-using Supabase.Postgrest.Models;
+﻿
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace AgendamentoAPI.Models
 {
     [Table("profissional_tipo_servico")]
-    public class ProfissionalTipoServico : BaseModel
+    public class ProfissionalTipoServico 
     {
-        [PrimaryKey("id")]
+        [Key]
         public int Id { get; set; }
 
-        [Column("profissional_id")]
         public int ProfissionalId { get; set; }
 
-        [Column("tipo_servico_id")]
         public int TipoServicoId { get; set; }
 
         public TipoServico TipoServico { get; set; }

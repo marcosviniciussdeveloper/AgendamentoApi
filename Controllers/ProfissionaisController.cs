@@ -12,7 +12,7 @@ namespace AgendamentoAPI.Controllers
         [HttpGet]
         public async Task<IActionResult> GetProfissionais()
         {
-            var profissionais = await _supabase.Profissionais.Get();
+            var profissionais = await _context.Profissionais.Get();
             return Ok(profissionais);
         }
 

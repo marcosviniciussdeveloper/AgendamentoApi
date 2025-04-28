@@ -57,7 +57,7 @@ namespace AgendamentoAPI.Repository
                 .Where(x => x.Id == profissional.Id)
                 .Delete(profissional);
 
-                // Check if the deletion was successful
+              
                 if (response == null || response.Models.Count == 0)
                 {
                     throw new Exception("Nenhum registro foi excluído. Verifique se o ID é válido.");

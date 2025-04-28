@@ -1,5 +1,5 @@
 ﻿
-using Supabase.Postgrest.Attributes;
+using System.ComponentModel.DataAnnotations;
 using ColumnAttribute = System.ComponentModel.DataAnnotations.Schema.ColumnAttribute;
 using TableAttribute = System.ComponentModel.DataAnnotations.Schema.TableAttribute;
 
@@ -10,7 +10,7 @@ namespace AgendamentoAPI.Models
 
     public class TipoServico
     {
-        [PrimaryKey("id")]
+        [Key]
     
         public int Id { get; set; }
 
