@@ -1,72 +1,47 @@
-﻿using AgendamentoAPI.Interface;
-using AgendamentoAPI.Models;
-using AgendamentoAPI.Services;
+﻿using AgendamentoAPI.Context;
+using AgendamentoAPI.Interface;
+
 namespace AgendamentoAPI.Repository
 {
     public class ProfissionalRepository : IProfissionalRepository
     {
-        private readonly SupabaseService _supabase;
+        private readonly ApiContext _Context;
 
-        public ProfissionalRepository(SupabaseService supabase)
+        public ProfissionalRepository(ApiContext context)
         {
-            _supabase = supabase;
+            _Context = context;
         }
 
-        public async Task Alterar(profissionais profissional)
+        public void Alterar(Profissional profissional)
         {
-            try
-            {
-                var client = _supabase.GetClient();
-                var table = client.From<profissionais>();
-                var response = await table
-                    .Where(x => x.Id == profissional.Id)
-                    .Update(profissional);
-            }
-            catch (Exception ex)
-            {
-                throw new Exception("Erro ao alterar o profissional: " + ex.Message);
-            }
+            _Context.Entry(profissional).State = Microsoft.EntityFrameworkCore.EntityState.Modified;
         }
 
-        public async Task Incluir(profissionais profissional)
+        public void Excluir(int id)
         {
             throw new NotImplementedException();
         }
 
-        public async Task<profissionais> SelecionarByPk(int id)
+        public void Incluir(Profissional profissional)
         {
             throw new NotImplementedException();
         }
 
-        public async Task<IEnumerable<profissionais>> SelecionarTodos()
+        public async Task<bool> SaveAllChangesAsync()
+        {
+            return await _Context.SaveChangesAsync() > 0;
+        }
+
+        public Task<Profissional> SelecionarByPk(int id)
         {
             throw new NotImplementedException();
         }
 
-        public async Task Excluir(profissionais profissional)
+        public Task<IEnumerable<Profissional>> SelecionarTodos()
         {
-            if (profissional == null || profissional.Id <= 0)
-            {
-                throw new ArgumentNullException("Profissional inválido ou ID não fornecido.");
-            }
-            try
-            {
-                var client = _supabase.GetClient();
-                var table = client.From<profissionais>();
-                var response = await client
-                .Where(x => x.Id == profissional.Id)
-                .Delete(profissional);
-
-              
-                if (response == null || response.Models.Count == 0)
-                {
-                    throw new Exception("Nenhum registro foi excluído. Verifique se o ID é válido.");
-                }
-            }
-            catch (Exception ex)
-            {
-                throw new Exception("Erro ao excluir o profissional: " + ex.Message, ex);
-            }
+            throw new NotImplementedException();
         }
     }
 }
+
+        

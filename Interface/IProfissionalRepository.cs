@@ -1,13 +1,15 @@
-﻿using AgendamentoAPI.Models;
-namespace AgendamentoAPI.Interface
+﻿namespace AgendamentoAPI.Interface
 {
     public interface IProfissionalRepository
     {
-        Task Incluir(profissionais profissional);
-        Task Alterar(profissionais profissional);
-        Task Excluir(profissionais profissionais);
-        Task<profissionais> SelecionarByPk(int id);
-        Task<IEnumerable<profissionais>> SelecionarTodos();
-      
+        void Incluir(Profissional profissional);
+        void Alterar(Profissional profissional);
+        void Excluir(int id);
+
+        Task<Profissional> SelecionarByPk(int id);
+        Task<IEnumerable<Profissional>> SelecionarTodos();
+
+        Task<bool>SaveAllChangesAsync();
+
     }
 }

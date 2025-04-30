@@ -1,19 +1,17 @@
-﻿using AgendamentoAPI.Models;
-
+﻿
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 namespace AgendamentoAPI.Controllers
 {
     [ApiController]
     [Route("api/v1/profisionais]")]
-    public class ProfissionaisController : ControllerBase
+    public class ProfissionaisControllerContext : ControllerBase
     {
 
-        [HttpGet]
-        public async Task<IActionResult> GetProfissionais()
-        {
-            var profissionais = await _context.Profissionais.Get();
-            return Ok(profissionais);
-        }
 
+        [HttpGet]
+        
+
+    }
 }

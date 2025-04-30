@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mv834\\Desktop\\AgendamentoAPi\\AgendamentoApi\\AgendamentoAPI.csproj": {}
+    "C:\\Users\\Sindauto\\Desktop\\AgendamentoAPI\\AgendamentoAPI\\AgendamentoAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mv834\\Desktop\\AgendamentoAPi\\AgendamentoApi\\AgendamentoAPI.csproj": {
+    "C:\\Users\\Sindauto\\Desktop\\AgendamentoAPI\\AgendamentoAPI\\AgendamentoAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mv834\\Desktop\\AgendamentoAPi\\AgendamentoApi\\AgendamentoAPI.csproj",
+        "projectUniqueName": "C:\\Users\\Sindauto\\Desktop\\AgendamentoAPI\\AgendamentoAPI\\AgendamentoAPI.csproj",
         "projectName": "AgendamentoAPI",
-        "projectPath": "C:\\Users\\mv834\\Desktop\\AgendamentoAPi\\AgendamentoApi\\AgendamentoAPI.csproj",
-        "packagesPath": "C:\\Users\\mv834\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mv834\\Desktop\\AgendamentoAPi\\AgendamentoApi\\obj\\",
+        "projectPath": "C:\\Users\\Sindauto\\Desktop\\AgendamentoAPI\\AgendamentoAPI\\AgendamentoAPI.csproj",
+        "packagesPath": "C:\\Users\\Sindauto\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Sindauto\\Desktop\\AgendamentoAPI\\AgendamentoAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\mv834\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Sindauto\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -51,13 +51,31 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "FluentAssertions": {
+              "target": "Package",
+              "version": "[8.2.0, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[9.0.4, )"
+              "version": "[8.0.13, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.13, )"
+            },
+            "MySqlConnector": {
+              "target": "Package",
+              "version": "[2.4.0, )"
             },
             "Npgsql": {
               "target": "Package",
               "version": "[9.0.3, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[8.0.3, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",

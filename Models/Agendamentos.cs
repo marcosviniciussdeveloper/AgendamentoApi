@@ -1,37 +1,30 @@
 ﻿
+using System.ComponentModel.DataAnnotations.Schema;
 using System.ComponentModel.DataAnnotations;
-using ColumnAttribute = System.ComponentModel.DataAnnotations.Schema.ColumnAttribute;
-using TableAttribute = System.ComponentModel.DataAnnotations.Schema.TableAttribute;
 
-namespace AgendamentoAPI.Models
+[Table("agendamentos")]
+public class Agendamento
 {
-    [Table("agendamentos")]
-    public class Agendamentos 
-    {
+    [Key]
+    public int Id { get; set; }
 
-        [Key]
-        public int Id { get; set; }
+    [Required]
+    public DateTime DataHora { get; set; }
 
-        
-        public DateTime Datahora { get; set; }
+    [Required]
+    [StringLength(50)]
+    public string Status { get; set; } 
 
-        public string Status { get; set; }
+ 
+    public int ClienteId { get; set; }
+    public int ProfissionalId { get; set; }
+    public int ServicoId { get; set; }
 
-        public int Id_Cliente { get; set; }
-       
-        public int Id_Profissional { get; set; }
+  
+    public virtual Cliente Cliente { get; set; }
+    public virtual Profissional Profissional { get; set; }
+    public virtual TipoServico Servico { get; set; }
 
-      
-        public int Id_Servico { get; set; }
-
-        public Agendamentos(DateTime datahora, int idCliente, int idProfissional, int idServico, string status)
-        {
-            Datahora = datahora;
-            Id_Cliente = idCliente;
-            Id_Profissional = idProfissional;
-            Id_Servico = idServico;
-            Status = status;
-        }
-
-    }
+  
+    public string Observacoes { get; set; }
 }

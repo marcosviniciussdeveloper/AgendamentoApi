@@ -1,24 +1,24 @@
-﻿
+﻿using System.ComponentModel.DataAnnotations.Schema;
 using System.ComponentModel.DataAnnotations;
-using ColumnAttribute = System.ComponentModel.DataAnnotations.Schema.ColumnAttribute;
-using TableAttribute = System.ComponentModel.DataAnnotations.Schema.TableAttribute;
 
-namespace AgendamentoAPI.Models
+
+[Table("servicos")]
+public class TipoServico
 {
+    [Key]
+    public int Id { get; set; }
 
-     [Table("tipo_servico")]
+    [Required]
+    [StringLength(100)]
+    public string Nome { get; set; }
 
-    public class TipoServico
-    {
-        [Key]
-    
-        public int Id { get; set; }
+    [Column(TypeName = "decimal(18,2)")]
+    public decimal Preco { get; set; }
 
-        [Column("duracao")]
-        public DateTime Duracao { get; set; }
+    public int DuracaoMinutos { get; set; } 
 
-        [Column("descricao")]
-        public string Descricao { get; set; }
+ 
+    public virtual ICollection<ProfissionalTipoServico> Profissionais { get; set; }
 
-    }
+    public virtual ICollection<Agendamento> Agendamentos { get; set; }
 }

@@ -1,52 +1,22 @@
-﻿
+﻿using System.ComponentModel.DataAnnotations.Schema;
 using System.ComponentModel.DataAnnotations;
-using TableAttribute = System.ComponentModel.DataAnnotations.Schema.TableAttribute;
 
 
-namespace AgendamentoAPI.Models
+[Table("profissionais")]
+public class Profissional
 {
-    [Table("profissionais")]
-    public class profissionais 
-    {
+    [Key]
+    public int Id { get; set; }
 
-        [Key]
+    [Required]
+    [StringLength(100)]
+    public string Nome { get; set; }
 
-        public int Id { get; set; }
+    [StringLength(100)]
+    public string Especialidade { get; set; }
 
-        
-        public string Nome { get; set; }
-
-    
-
-        public string cpf { get; set; }
-
-       
-        public DateTime DataNascimento { get; set; }
-
-       
-        public string Email { get; set; }
-  
-        public string Telefone { get; set; }
-
-    
-        public string Areaatuacao { get; set; }
-
-        public string Especialidade { get; set; }
-        public DateTime Disponibilidade { get; set; }
-
-        public List<TipoServico> TiposServicos { get; set; }
+    public virtual ICollection<ProfissionalTipoServico> Servicos { get; set; }
 
 
-        public profissionais(string nome, string cpf, DateTime dataNascimento, string email, string telefone, string areaatuacao, string especialidade, DateTime disponibilidade)
-        {
-            Nome = nome;
-            this.cpf = cpf;
-            DataNascimento = dataNascimento;
-            Email = email;
-            Telefone = telefone;
-            Areaatuacao = areaatuacao;
-            Especialidade = especialidade;
-            Disponibilidade = disponibilidade;
-        }
-    }
+    public virtual ICollection<Agendamento> Agendamentos { get; set; }
 }
