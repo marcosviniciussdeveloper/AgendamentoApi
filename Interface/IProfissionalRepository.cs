@@ -10,6 +10,6 @@
         Task<IEnumerable<Profissional>> SelecionarTodos();
 
         Task<bool>SaveAllChangesAsync();
-
+       
     }
 }

@@ -1,5 +1,7 @@
 ﻿using AgendamentoAPI.Context;
+using AgendamentoAPI.Controllers;
 using AgendamentoAPI.Interface;
+using Microsoft.EntityFrameworkCore;
 
 namespace AgendamentoAPI.Repository
 {
@@ -14,17 +16,14 @@ namespace AgendamentoAPI.Repository
 
         public void Alterar(Profissional profissional)
         {
-            _Context.Entry(profissional).State = Microsoft.EntityFrameworkCore.EntityState.Modified;
+           _Context.Entry(profissional).State = EntityState.Modified;
         }
 
-        public void Excluir(int id)
-        {
-            throw new NotImplementedException();
-        }
+   
 
         public void Incluir(Profissional profissional)
         {
-            throw new NotImplementedException();
+            _Context.Profissionais.Add(profissional);
         }
 
         public async Task<bool> SaveAllChangesAsync()
@@ -32,16 +31,30 @@ namespace AgendamentoAPI.Repository
             return await _Context.SaveChangesAsync() > 0;
         }
 
-        public Task<Profissional> SelecionarByPk(int id)
+        public async Task<IEnumerable<Profissional>> SelecionarTodos()
         {
-            throw new NotImplementedException();
+            return await _Context.Profissionais.ToListAsync();
         }
 
-        public Task<IEnumerable<Profissional>> SelecionarTodos()
+
+
+        public async Task<Profissional> SelecionarByPk(int id)
         {
-            throw new NotImplementedException();
+            return await _Context.Profissionais.Where(x => x.Id == id).FirstOrDefaultAsync();
         }
-    }
+
+        public void Excluir(int id)
+        {
+            var profissional = _Context.Profissionais.Find(id);
+
+            if( profissional == null )
+            {
+                _Context.Profissionais.Remove(profissional);
+
+     
+            }
+        }
+    } 
 }
 
         

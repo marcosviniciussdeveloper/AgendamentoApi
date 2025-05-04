@@ -2,7 +2,7 @@ using AgendamentoAPI.Context;
 using AgendamentoAPI.Interface;
 using AgendamentoAPI.Repository;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore.Internal; // Ensure this namespace is included
+using Microsoft.EntityFrameworkCore.Internal; 
 
 var builder = WebApplication.CreateBuilder(args);
 
