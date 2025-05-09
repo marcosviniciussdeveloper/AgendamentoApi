@@ -21,6 +21,8 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 builder.Services.AddScoped<IProfissionalRepository, ProfissionalRepository>();
+builder.Services.AddScoped<IServicoRepository, ServicoRepositorio>();
+builder.Services.AddScoped<IClienteRepository, ClienteRepositorio>();
 builder.Services.AddSingleton<DbContextServices>();
 
 // Fix: Remove the duplicate `var app` declaration

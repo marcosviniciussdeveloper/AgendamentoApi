@@ -231,3 +231,4 @@ C:\Users\mv834\Desktop\AgendamentoAPi\AgendamentoApi\obj\Debug\net8.0\Agendame.3
 C:\Users\mv834\Desktop\AgendamentoAPi\AgendamentoApi\obj\Debug\net8.0\AgendamentoAPI.genruntimeconfig.cache
 C:\Users\mv834\Desktop\AgendamentoAPi\AgendamentoApi\obj\Debug\net8.0\ref\AgendamentoAPI.dll
 C:\Users\mv834\Desktop\AgendamentoAPi\AgendamentoApi\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\Sindauto\Desktop\AgendamentoAPI\AgendamentoAPI\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

@@ -61,21 +61,20 @@ namespace AgendamentoAPI.Controllers
             return BadRequest("Falha ao atualizar profissional");
         }
 
-        [HttpDelete("DeletarProfissional/{id}")]
-
-        public IActionResult ExcluirProfissional(int id)
+        [HttpDelete("DeletarProfissional")]
+        public async Task<IActionResult> ExcluirProfissional(int Id)
         {
-            try
+        
             {
-                _ProfissionalRepository.Excluir(id);
-                _ProfissionalRepository.SaveAllChangesAsync(); 
+                _ProfissionalRepository.Excluir(Id);
+                if (await _ProfissionalRepository.SaveAllChangesAsync())
+                {
+                    return Ok($"Profissional {Id} excluído com sucesso");
+                }
 
-                return Ok($"Profissional {id} excluído com sucesso");
-            }
-            catch
-            {
                 return BadRequest("Erro ao excluir profissional");
             }
+        
         }
 
 

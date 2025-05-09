@@ -18,5 +18,5 @@ public class Cliente
     public string Telefone { get; set; }
 
   
-    public virtual ICollection<Agendamento> Agendamentos { get; set; }
+    public virtual ICollection<Agendamento>? Agendamentos { get; set; }
 }

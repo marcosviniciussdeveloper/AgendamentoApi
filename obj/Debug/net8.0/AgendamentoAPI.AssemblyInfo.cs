@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AgendamentoAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5a13fc370f99224a17bf7035d4fb149e87b1e5f5")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1af8f698b7407a1c5b437811ec8dcb5e220e19f0")]
 [assembly: System.Reflection.AssemblyProductAttribute("AgendamentoAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AgendamentoAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
