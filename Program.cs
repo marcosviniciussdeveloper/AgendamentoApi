@@ -9,7 +9,7 @@ var builder = WebApplication.CreateBuilder(args);
 // Corrected code: Use the DbContextOptionsBuilder to configure MySQL
 builder.Services.AddDbContext<ApiContext>(options =>
     options.UseMySql(
-        builder.Configuration.GetConnectionString("DefaultConnection"),
+        builder.Configuration.GetConnectionString("Default"),
         new MySqlServerVersion(new Version(8, 0, 42))
     )
 );
@@ -22,6 +22,7 @@ builder.Services.AddSwaggerGen();
 
 builder.Services.AddScoped<IProfissionalRepository, ProfissionalRepository>();
 builder.Services.AddScoped<IServicoRepository, ServicoRepositorio>();
+builder.Services.AddScoped<IAgendamentoRepository, AgendamentoRepositorio>();
 builder.Services.AddScoped<IClienteRepository, ClienteRepositorio>();
 builder.Services.AddSingleton<DbContextServices>();
 
@@ -33,12 +34,14 @@ if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
     app.UseSwaggerUI();
+
 }
 
 app.UseHttpsRedirection();
 
 app.UseAuthorization();
 
+app.UseCors();
 app.MapControllers();
 
 app.Run();

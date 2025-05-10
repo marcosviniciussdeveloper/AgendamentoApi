@@ -1,105 +1,121 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Sindauto\\Desktop\\AgendamentoAPI\\AgendamentoAPI\\",
+  "WorkspaceRootPath": "C:\\Users\\mv834\\Desktop\\AgendamentoAPi\\AgendamentoApi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6E6684E3-9F4C-4867-B503-742C4D78F8A8}|AgendamentoAPI.csproj|c:\\users\\sindauto\\desktop\\agendamentoapi\\agendamentoapi\\controllers\\profissionaiscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6E6684E3-9F4C-4867-B503-742C4D78F8A8}|AgendamentoAPI.csproj|solutionrelative:controllers\\profissionaiscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6E6684E3-9F4C-4867-B503-742C4D78F8A8}|AgendamentoAPI.csproj|c:\\users\\sindauto\\desktop\\agendamentoapi\\agendamentoapi\\interface\\iprofissionalrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6E6684E3-9F4C-4867-B503-742C4D78F8A8}|AgendamentoAPI.csproj|solutionrelative:interface\\iprofissionalrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6E6684E3-9F4C-4867-B503-742C4D78F8A8}|AgendamentoAPI.csproj|c:\\users\\sindauto\\desktop\\agendamentoapi\\agendamentoapi\\repository\\profissionalrepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6E6684E3-9F4C-4867-B503-742C4D78F8A8}|AgendamentoAPI.csproj|solutionrelative:repository\\profissionalrepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6E6684E3-9F4C-4867-B503-742C4D78F8A8}|AgendamentoAPI.csproj|c:\\users\\sindauto\\desktop\\agendamentoapi\\agendamentoapi\\controllers\\servicocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6E6684E3-9F4C-4867-B503-742C4D78F8A8}|AgendamentoAPI.csproj|solutionrelative:controllers\\servicocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6E6684E3-9F4C-4867-B503-742C4D78F8A8}|AgendamentoAPI.csproj|c:\\users\\sindauto\\desktop\\agendamentoapi\\agendamentoapi\\interface\\iservicorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6E6684E3-9F4C-4867-B503-742C4D78F8A8}|AgendamentoAPI.csproj|solutionrelative:interface\\iservicorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6E6684E3-9F4C-4867-B503-742C4D78F8A8}|AgendamentoAPI.csproj|c:\\users\\sindauto\\desktop\\agendamentoapi\\agendamentoapi\\controllers\\clientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6E6684E3-9F4C-4867-B503-742C4D78F8A8}|AgendamentoAPI.csproj|solutionrelative:controllers\\clientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6E6684E3-9F4C-4867-B503-742C4D78F8A8}|AgendamentoAPI.csproj|c:\\users\\sindauto\\desktop\\agendamentoapi\\agendamentoapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6E6684E3-9F4C-4867-B503-742C4D78F8A8}|AgendamentoAPI.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6E6684E3-9F4C-4867-B503-742C4D78F8A8}|AgendamentoAPI.csproj|c:\\users\\sindauto\\desktop\\agendamentoapi\\agendamentoapi\\models\\tiposervico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6E6684E3-9F4C-4867-B503-742C4D78F8A8}|AgendamentoAPI.csproj|solutionrelative:models\\tiposervico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6E6684E3-9F4C-4867-B503-742C4D78F8A8}|AgendamentoAPI.csproj|c:\\users\\sindauto\\desktop\\agendamentoapi\\agendamentoapi\\interface\\iclienterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6E6684E3-9F4C-4867-B503-742C4D78F8A8}|AgendamentoAPI.csproj|solutionrelative:interface\\iclienterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6E6684E3-9F4C-4867-B503-742C4D78F8A8}|AgendamentoAPI.csproj|c:\\users\\sindauto\\desktop\\agendamentoapi\\agendamentoapi\\repository\\servicorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6E6684E3-9F4C-4867-B503-742C4D78F8A8}|AgendamentoAPI.csproj|solutionrelative:repository\\servicorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6E6684E3-9F4C-4867-B503-742C4D78F8A8}|AgendamentoAPI.csproj|c:\\users\\sindauto\\desktop\\agendamentoapi\\agendamentoapi\\repository\\clienterepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6E6684E3-9F4C-4867-B503-742C4D78F8A8}|AgendamentoAPI.csproj|solutionrelative:repository\\clienterepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6E6684E3-9F4C-4867-B503-742C4D78F8A8}|AgendamentoAPI.csproj|c:\\users\\sindauto\\desktop\\agendamentoapi\\agendamentoapi\\context\\apiscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6E6684E3-9F4C-4867-B503-742C4D78F8A8}|AgendamentoAPI.csproj|solutionrelative:context\\apiscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6E6684E3-9F4C-4867-B503-742C4D78F8A8}|AgendamentoAPI.csproj|c:\\users\\sindauto\\desktop\\agendamentoapi\\agendamentoapi\\models\\profissional_tipo_servico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6E6684E3-9F4C-4867-B503-742C4D78F8A8}|AgendamentoAPI.csproj|solutionrelative:models\\profissional_tipo_servico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6E6684E3-9F4C-4867-B503-742C4D78F8A8}|AgendamentoAPI.csproj|c:\\users\\sindauto\\desktop\\agendamentoapi\\agendamentoapi\\models\\clientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6E6684E3-9F4C-4867-B503-742C4D78F8A8}|AgendamentoAPI.csproj|solutionrelative:models\\clientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6E6684E3-9F4C-4867-B503-742C4D78F8A8}|AgendamentoAPI.csproj|c:\\users\\sindauto\\desktop\\agendamentoapi\\agendamentoapi\\models\\profissionais.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6E6684E3-9F4C-4867-B503-742C4D78F8A8}|AgendamentoAPI.csproj|solutionrelative:models\\profissionais.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6E6684E3-9F4C-4867-B503-742C4D78F8A8}|AgendamentoAPI.csproj|c:\\users\\sindauto\\desktop\\agendamentoapi\\agendamentoapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{6E6684E3-9F4C-4867-B503-742C4D78F8A8}|AgendamentoAPI.csproj|c:\\users\\mv834\\desktop\\agendamentoapi\\agendamentoapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{6E6684E3-9F4C-4867-B503-742C4D78F8A8}|AgendamentoAPI.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6E6684E3-9F4C-4867-B503-742C4D78F8A8}|AgendamentoAPI.csproj|c:\\users\\sindauto\\desktop\\agendamentoapi\\agendamentoapi\\models\\usuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6E6684E3-9F4C-4867-B503-742C4D78F8A8}|AgendamentoAPI.csproj|solutionrelative:models\\usuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6E6684E3-9F4C-4867-B503-742C4D78F8A8}|AgendamentoAPI.csproj|c:\\users\\mv834\\desktop\\agendamentoapi\\agendamentoapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E6684E3-9F4C-4867-B503-742C4D78F8A8}|AgendamentoAPI.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6E6684E3-9F4C-4867-B503-742C4D78F8A8}|AgendamentoAPI.csproj|c:\\users\\sindauto\\desktop\\agendamentoapi\\agendamentoapi\\models\\agendamentos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6E6684E3-9F4C-4867-B503-742C4D78F8A8}|AgendamentoAPI.csproj|solutionrelative:models\\agendamentos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6E6684E3-9F4C-4867-B503-742C4D78F8A8}|AgendamentoAPI.csproj|c:\\users\\mv834\\desktop\\agendamentoapi\\agendamentoapi\\agendamentoapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{6E6684E3-9F4C-4867-B503-742C4D78F8A8}|AgendamentoAPI.csproj|solutionrelative:agendamentoapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6E6684E3-9F4C-4867-B503-742C4D78F8A8}|AgendamentoAPI.csproj|c:\\users\\sindauto\\desktop\\agendamentoapi\\agendamentoapi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{6E6684E3-9F4C-4867-B503-742C4D78F8A8}|AgendamentoAPI.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6E6684E3-9F4C-4867-B503-742C4D78F8A8}|AgendamentoAPI.csproj|c:\\users\\sindauto\\desktop\\agendamentoapi\\agendamentoapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{6E6684E3-9F4C-4867-B503-742C4D78F8A8}|AgendamentoAPI.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6E6684E3-9F4C-4867-B503-742C4D78F8A8}|AgendamentoAPI.csproj|c:\\users\\sindauto\\desktop\\agendamentoapi\\agendamentoapi\\service\\service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6E6684E3-9F4C-4867-B503-742C4D78F8A8}|AgendamentoAPI.csproj|solutionrelative:service\\service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6E6684E3-9F4C-4867-B503-742C4D78F8A8}|AgendamentoAPI.csproj|c:\\users\\sindauto\\desktop\\agendamentoapi\\agendamentoapi\\agendamentoapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "AbsoluteMoniker": "D:0:0:{6E6684E3-9F4C-4867-B503-742C4D78F8A8}|AgendamentoAPI.csproj|c:\\users\\mv834\\desktop\\agendamentoapi\\agendamentoapi\\agendamentoapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
       "RelativeMoniker": "D:0:0:{6E6684E3-9F4C-4867-B503-742C4D78F8A8}|AgendamentoAPI.csproj|solutionrelative:agendamentoapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6E6684E3-9F4C-4867-B503-742C4D78F8A8}|AgendamentoAPI.csproj|c:\\users\\sindauto\\desktop\\agendamentoapi\\agendamentoapi\\migrations\\20250430163149_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6E6684E3-9F4C-4867-B503-742C4D78F8A8}|AgendamentoAPI.csproj|c:\\users\\mv834\\desktop\\agendamentoapi\\agendamentoapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{6E6684E3-9F4C-4867-B503-742C4D78F8A8}|AgendamentoAPI.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E6684E3-9F4C-4867-B503-742C4D78F8A8}|AgendamentoAPI.csproj|c:\\users\\mv834\\desktop\\agendamentoapi\\agendamentoapi\\controllers\\agendamentocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E6684E3-9F4C-4867-B503-742C4D78F8A8}|AgendamentoAPI.csproj|solutionrelative:controllers\\agendamentocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E6684E3-9F4C-4867-B503-742C4D78F8A8}|AgendamentoAPI.csproj|c:\\users\\mv834\\desktop\\agendamentoapi\\agendamentoapi\\interface\\iclienterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E6684E3-9F4C-4867-B503-742C4D78F8A8}|AgendamentoAPI.csproj|solutionrelative:interface\\iclienterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E6684E3-9F4C-4867-B503-742C4D78F8A8}|AgendamentoAPI.csproj|c:\\users\\mv834\\desktop\\agendamentoapi\\agendamentoapi\\interface\\iagendamentorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E6684E3-9F4C-4867-B503-742C4D78F8A8}|AgendamentoAPI.csproj|solutionrelative:interface\\iagendamentorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E6684E3-9F4C-4867-B503-742C4D78F8A8}|AgendamentoAPI.csproj|c:\\users\\mv834\\desktop\\agendamentoapi\\agendamentoapi\\models\\clientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E6684E3-9F4C-4867-B503-742C4D78F8A8}|AgendamentoAPI.csproj|solutionrelative:models\\clientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E6684E3-9F4C-4867-B503-742C4D78F8A8}|AgendamentoAPI.csproj|c:\\users\\mv834\\desktop\\agendamentoapi\\agendamentoapi\\repository\\profissionalrepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E6684E3-9F4C-4867-B503-742C4D78F8A8}|AgendamentoAPI.csproj|solutionrelative:repository\\profissionalrepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E6684E3-9F4C-4867-B503-742C4D78F8A8}|AgendamentoAPI.csproj|c:\\users\\mv834\\desktop\\agendamentoapi\\agendamentoapi\\repository\\agendamentorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E6684E3-9F4C-4867-B503-742C4D78F8A8}|AgendamentoAPI.csproj|solutionrelative:repository\\agendamentorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E6684E3-9F4C-4867-B503-742C4D78F8A8}|AgendamentoAPI.csproj|c:\\users\\mv834\\desktop\\agendamentoapi\\agendamentoapi\\controllers\\clientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E6684E3-9F4C-4867-B503-742C4D78F8A8}|AgendamentoAPI.csproj|solutionrelative:controllers\\clientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E6684E3-9F4C-4867-B503-742C4D78F8A8}|AgendamentoAPI.csproj|c:\\users\\mv834\\desktop\\agendamentoapi\\agendamentoapi\\interface\\iservicorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E6684E3-9F4C-4867-B503-742C4D78F8A8}|AgendamentoAPI.csproj|solutionrelative:interface\\iservicorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E6684E3-9F4C-4867-B503-742C4D78F8A8}|AgendamentoAPI.csproj|c:\\users\\mv834\\desktop\\agendamentoapi\\agendamentoapi\\interface\\iprofissionalrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E6684E3-9F4C-4867-B503-742C4D78F8A8}|AgendamentoAPI.csproj|solutionrelative:interface\\iprofissionalrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E6684E3-9F4C-4867-B503-742C4D78F8A8}|AgendamentoAPI.csproj|c:\\users\\mv834\\desktop\\agendamentoapi\\agendamentoapi\\repository\\clienterepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E6684E3-9F4C-4867-B503-742C4D78F8A8}|AgendamentoAPI.csproj|solutionrelative:repository\\clienterepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E6684E3-9F4C-4867-B503-742C4D78F8A8}|AgendamentoAPI.csproj|c:\\users\\mv834\\desktop\\agendamentoapi\\agendamentoapi\\repository\\servicorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E6684E3-9F4C-4867-B503-742C4D78F8A8}|AgendamentoAPI.csproj|solutionrelative:repository\\servicorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E6684E3-9F4C-4867-B503-742C4D78F8A8}|AgendamentoAPI.csproj|c:\\users\\mv834\\desktop\\agendamentoapi\\agendamentoapi\\models\\agendamentos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E6684E3-9F4C-4867-B503-742C4D78F8A8}|AgendamentoAPI.csproj|solutionrelative:models\\agendamentos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E6684E3-9F4C-4867-B503-742C4D78F8A8}|AgendamentoAPI.csproj|c:\\users\\mv834\\desktop\\agendamentoapi\\agendamentoapi\\controllers\\profissionaiscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E6684E3-9F4C-4867-B503-742C4D78F8A8}|AgendamentoAPI.csproj|solutionrelative:controllers\\profissionaiscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E6684E3-9F4C-4867-B503-742C4D78F8A8}|AgendamentoAPI.csproj|c:\\users\\mv834\\desktop\\agendamentoapi\\agendamentoapi\\controllers\\servicocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E6684E3-9F4C-4867-B503-742C4D78F8A8}|AgendamentoAPI.csproj|solutionrelative:controllers\\servicocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E6684E3-9F4C-4867-B503-742C4D78F8A8}|AgendamentoAPI.csproj|c:\\users\\mv834\\desktop\\agendamentoapi\\agendamentoapi\\models\\tiposervico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E6684E3-9F4C-4867-B503-742C4D78F8A8}|AgendamentoAPI.csproj|solutionrelative:models\\tiposervico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E6684E3-9F4C-4867-B503-742C4D78F8A8}|AgendamentoAPI.csproj|c:\\users\\mv834\\desktop\\agendamentoapi\\agendamentoapi\\context\\apiscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E6684E3-9F4C-4867-B503-742C4D78F8A8}|AgendamentoAPI.csproj|solutionrelative:context\\apiscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E6684E3-9F4C-4867-B503-742C4D78F8A8}|AgendamentoAPI.csproj|c:\\users\\mv834\\desktop\\agendamentoapi\\agendamentoapi\\models\\profissional_tipo_servico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E6684E3-9F4C-4867-B503-742C4D78F8A8}|AgendamentoAPI.csproj|solutionrelative:models\\profissional_tipo_servico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E6684E3-9F4C-4867-B503-742C4D78F8A8}|AgendamentoAPI.csproj|c:\\users\\mv834\\desktop\\agendamentoapi\\agendamentoapi\\models\\profissionais.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E6684E3-9F4C-4867-B503-742C4D78F8A8}|AgendamentoAPI.csproj|solutionrelative:models\\profissionais.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E6684E3-9F4C-4867-B503-742C4D78F8A8}|AgendamentoAPI.csproj|c:\\users\\mv834\\desktop\\agendamentoapi\\agendamentoapi\\models\\usuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E6684E3-9F4C-4867-B503-742C4D78F8A8}|AgendamentoAPI.csproj|solutionrelative:models\\usuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E6684E3-9F4C-4867-B503-742C4D78F8A8}|AgendamentoAPI.csproj|c:\\users\\mv834\\desktop\\agendamentoapi\\agendamentoapi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{6E6684E3-9F4C-4867-B503-742C4D78F8A8}|AgendamentoAPI.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E6684E3-9F4C-4867-B503-742C4D78F8A8}|AgendamentoAPI.csproj|c:\\users\\mv834\\desktop\\agendamentoapi\\agendamentoapi\\service\\service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E6684E3-9F4C-4867-B503-742C4D78F8A8}|AgendamentoAPI.csproj|solutionrelative:service\\service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E6684E3-9F4C-4867-B503-742C4D78F8A8}|AgendamentoAPI.csproj|c:\\users\\mv834\\desktop\\agendamentoapi\\agendamentoapi\\migrations\\20250430163149_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6E6684E3-9F4C-4867-B503-742C4D78F8A8}|AgendamentoAPI.csproj|solutionrelative:migrations\\20250430163149_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6E6684E3-9F4C-4867-B503-742C4D78F8A8}|AgendamentoAPI.csproj|c:\\users\\sindauto\\desktop\\agendamentoapi\\agendamentoapi\\migrations\\apicontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6E6684E3-9F4C-4867-B503-742C4D78F8A8}|AgendamentoAPI.csproj|c:\\users\\mv834\\desktop\\agendamentoapi\\agendamentoapi\\migrations\\apicontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6E6684E3-9F4C-4867-B503-742C4D78F8A8}|AgendamentoAPI.csproj|solutionrelative:migrations\\apicontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6E6684E3-9F4C-4867-B503-742C4D78F8A8}|AgendamentoAPI.csproj|c:\\users\\sindauto\\desktop\\agendamentoapi\\agendamentoapi\\agendamentoapi.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "AbsoluteMoniker": "D:0:0:{6E6684E3-9F4C-4867-B503-742C4D78F8A8}|AgendamentoAPI.csproj|c:\\users\\mv834\\desktop\\agendamentoapi\\agendamentoapi\\agendamentoapi.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
       "RelativeMoniker": "D:0:0:{6E6684E3-9F4C-4867-B503-742C4D78F8A8}|AgendamentoAPI.csproj|solutionrelative:agendamentoapi.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     }
   ],
@@ -109,7 +125,7 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 200,
+          "DockedWidth": 159,
           "SelectedChildIndex": -1,
           "Children": [
             {
@@ -122,30 +138,31 @@
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+              "Name": "ST:0:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             }
           ]
         },
         {
-          "DockedWidth": 191,
-          "SelectedChildIndex": 10,
+          "DockedWidth": 232,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 13,
               "Title": "IProfissionalRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Sindauto\\Desktop\\AgendamentoAPI\\AgendamentoAPI\\Interface\\IProfissionalRepository.cs",
+              "DocumentMoniker": "C:\\Users\\mv834\\Desktop\\AgendamentoAPi\\AgendamentoApi\\Interface\\IProfissionalRepository.cs",
               "RelativeDocumentMoniker": "Interface\\IProfissionalRepository.cs",
-              "ToolTip": "C:\\Users\\Sindauto\\Desktop\\AgendamentoAPI\\AgendamentoAPI\\Interface\\IProfissionalRepository.cs",
+              "ToolTip": "C:\\Users\\mv834\\Desktop\\AgendamentoAPi\\AgendamentoApi\\Interface\\IProfissionalRepository.cs",
               "RelativeToolTip": "Interface\\IProfissionalRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-26T14:49:00.683Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Bookmark",
@@ -153,299 +170,24 @@
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
-            },
-            {
-              "$type": "Bookmark",
               "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ServicoController.cs",
-              "DocumentMoniker": "C:\\Users\\Sindauto\\Desktop\\AgendamentoAPI\\AgendamentoAPI\\Controllers\\ServicoController.cs",
-              "RelativeDocumentMoniker": "Controllers\\ServicoController.cs",
-              "ToolTip": "C:\\Users\\Sindauto\\Desktop\\AgendamentoAPI\\AgendamentoAPI\\Controllers\\ServicoController.cs",
-              "RelativeToolTip": "Controllers\\ServicoController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-06T21:22:55.667Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "IServicoRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Sindauto\\Desktop\\AgendamentoAPI\\AgendamentoAPI\\Interface\\IServicoRepository.cs",
-              "RelativeDocumentMoniker": "Interface\\IServicoRepository.cs",
-              "ToolTip": "C:\\Users\\Sindauto\\Desktop\\AgendamentoAPI\\AgendamentoAPI\\Interface\\IServicoRepository.cs",
-              "RelativeToolTip": "Interface\\IServicoRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-06T20:34:05.059Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ServicoRepositorio.cs",
-              "DocumentMoniker": "C:\\Users\\Sindauto\\Desktop\\AgendamentoAPI\\AgendamentoAPI\\Repository\\ServicoRepositorio.cs",
-              "RelativeDocumentMoniker": "Repository\\ServicoRepositorio.cs",
-              "ToolTip": "C:\\Users\\Sindauto\\Desktop\\AgendamentoAPI\\AgendamentoAPI\\Repository\\ServicoRepositorio.cs",
-              "RelativeToolTip": "Repository\\ServicoRepositorio.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-06T20:33:46.627Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "ClienteRepositorio.cs",
-              "DocumentMoniker": "C:\\Users\\Sindauto\\Desktop\\AgendamentoAPI\\AgendamentoAPI\\Repository\\ClienteRepositorio.cs",
-              "RelativeDocumentMoniker": "Repository\\ClienteRepositorio.cs",
-              "ToolTip": "C:\\Users\\Sindauto\\Desktop\\AgendamentoAPI\\AgendamentoAPI\\Repository\\ClienteRepositorio.cs",
-              "RelativeToolTip": "Repository\\ClienteRepositorio.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAQwCoAAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-05T17:52:33.6Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "IClienteRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Sindauto\\Desktop\\AgendamentoAPI\\AgendamentoAPI\\Interface\\IClienteRepository.cs",
-              "RelativeDocumentMoniker": "Interface\\IClienteRepository.cs",
-              "ToolTip": "C:\\Users\\Sindauto\\Desktop\\AgendamentoAPI\\AgendamentoAPI\\Interface\\IClienteRepository.cs",
-              "RelativeToolTip": "Interface\\IClienteRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-05T17:43:10.861Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ClienteController.cs",
-              "DocumentMoniker": "C:\\Users\\Sindauto\\Desktop\\AgendamentoAPI\\AgendamentoAPI\\Controllers\\ClienteController.cs",
-              "RelativeDocumentMoniker": "Controllers\\ClienteController.cs",
-              "ToolTip": "C:\\Users\\Sindauto\\Desktop\\AgendamentoAPI\\AgendamentoAPI\\Controllers\\ClienteController.cs",
-              "RelativeToolTip": "Controllers\\ClienteController.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAB8AAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-05T17:42:46.375Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ProfissionaisController.cs",
-              "DocumentMoniker": "C:\\Users\\Sindauto\\Desktop\\AgendamentoAPI\\AgendamentoAPI\\Controllers\\ProfissionaisController.cs",
-              "RelativeDocumentMoniker": "Controllers\\ProfissionaisController.cs",
-              "ToolTip": "C:\\Users\\Sindauto\\Desktop\\AgendamentoAPI\\AgendamentoAPI\\Controllers\\ProfissionaisController.cs",
-              "RelativeToolTip": "Controllers\\ProfissionaisController.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAiwBYAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-25T20:04:43.843Z",
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\mv834\\Desktop\\AgendamentoAPi\\AgendamentoApi\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\mv834\\Desktop\\AgendamentoAPi\\AgendamentoApi\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-24T23:54:39.757Z",
               "EditorCaption": ""
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ProfissionalRepositorio.cs",
-              "DocumentMoniker": "C:\\Users\\Sindauto\\Desktop\\AgendamentoAPI\\AgendamentoAPI\\Repository\\ProfissionalRepositorio.cs",
-              "RelativeDocumentMoniker": "Repository\\ProfissionalRepositorio.cs",
-              "ToolTip": "C:\\Users\\Sindauto\\Desktop\\AgendamentoAPI\\AgendamentoAPI\\Repository\\ProfissionalRepositorio.cs",
-              "RelativeToolTip": "Repository\\ProfissionalRepositorio.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-26T14:45:41.911Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "ApisContext.cs",
-              "DocumentMoniker": "C:\\Users\\Sindauto\\Desktop\\AgendamentoAPI\\AgendamentoAPI\\Context\\ApisContext.cs",
-              "RelativeDocumentMoniker": "Context\\ApisContext.cs",
-              "ToolTip": "C:\\Users\\Sindauto\\Desktop\\AgendamentoAPI\\AgendamentoAPI\\Context\\ApisContext.cs",
-              "RelativeToolTip": "Context\\ApisContext.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAA4wAsAAABRAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-28T10:51:15.655Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "TipoServico.cs",
-              "DocumentMoniker": "C:\\Users\\Sindauto\\Desktop\\AgendamentoAPI\\AgendamentoAPI\\Models\\TipoServico.cs",
-              "RelativeDocumentMoniker": "Models\\TipoServico.cs",
-              "ToolTip": "C:\\Users\\Sindauto\\Desktop\\AgendamentoAPI\\AgendamentoAPI\\Models\\TipoServico.cs",
-              "RelativeToolTip": "Models\\TipoServico.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-23T19:19:55.701Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "profissional_tipo_servico.cs",
-              "DocumentMoniker": "C:\\Users\\Sindauto\\Desktop\\AgendamentoAPI\\AgendamentoAPI\\Models\\profissional_tipo_servico.cs",
-              "RelativeDocumentMoniker": "Models\\profissional_tipo_servico.cs",
-              "ToolTip": "C:\\Users\\Sindauto\\Desktop\\AgendamentoAPI\\AgendamentoAPI\\Models\\profissional_tipo_servico.cs",
-              "RelativeToolTip": "Models\\profissional_tipo_servico.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-24T23:36:06.472Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Sindauto\\Desktop\\AgendamentoAPI\\AgendamentoAPI\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\Sindauto\\Desktop\\AgendamentoAPI\\AgendamentoAPI\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAowCkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-23T19:09:06.155Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Profissionais.cs",
-              "DocumentMoniker": "C:\\Users\\Sindauto\\Desktop\\AgendamentoAPI\\AgendamentoAPI\\Models\\Profissionais.cs",
-              "RelativeDocumentMoniker": "Models\\Profissionais.cs",
-              "ToolTip": "C:\\Users\\Sindauto\\Desktop\\AgendamentoAPI\\AgendamentoAPI\\Models\\Profissionais.cs",
-              "RelativeToolTip": "Models\\Profissionais.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAYwA4AAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-23T19:16:40.7Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "Service.cs",
-              "DocumentMoniker": "C:\\Users\\Sindauto\\Desktop\\AgendamentoAPI\\AgendamentoAPI\\Service\\Service.cs",
-              "RelativeDocumentMoniker": "Service\\Service.cs",
-              "ToolTip": "C:\\Users\\Sindauto\\Desktop\\AgendamentoAPI\\AgendamentoAPI\\Service\\Service.cs",
-              "RelativeToolTip": "Service\\Service.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-30T17:37:25.798Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "Agendamentos.cs",
-              "DocumentMoniker": "C:\\Users\\Sindauto\\Desktop\\AgendamentoAPI\\AgendamentoAPI\\Models\\Agendamentos.cs",
-              "RelativeDocumentMoniker": "Models\\Agendamentos.cs",
-              "ToolTip": "C:\\Users\\Sindauto\\Desktop\\AgendamentoAPI\\AgendamentoAPI\\Models\\Agendamentos.cs",
-              "RelativeToolTip": "Models\\Agendamentos.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-23T19:21:41.427Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "Usuarios.cs",
-              "DocumentMoniker": "C:\\Users\\Sindauto\\Desktop\\AgendamentoAPI\\AgendamentoAPI\\Models\\Usuarios.cs",
-              "RelativeDocumentMoniker": "Models\\Usuarios.cs",
-              "ToolTip": "C:\\Users\\Sindauto\\Desktop\\AgendamentoAPI\\AgendamentoAPI\\Models\\Usuarios.cs",
-              "RelativeToolTip": "Models\\Usuarios.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAIwA0AAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-23T19:13:12.313Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "AgendamentoAPI.http",
-              "DocumentMoniker": "C:\\Users\\Sindauto\\Desktop\\AgendamentoAPI\\AgendamentoAPI\\AgendamentoAPI.http",
-              "RelativeDocumentMoniker": "AgendamentoAPI.http",
-              "ToolTip": "C:\\Users\\Sindauto\\Desktop\\AgendamentoAPI\\AgendamentoAPI\\AgendamentoAPI.http",
-              "RelativeToolTip": "AgendamentoAPI.http",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
-              "WhenOpened": "2025-04-30T16:49:53.632Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\Sindauto\\Desktop\\AgendamentoAPI\\AgendamentoAPI\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "C:\\Users\\Sindauto\\Desktop\\AgendamentoAPI\\AgendamentoAPI\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAADAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-04-24T23:54:39.757Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "20250430163149_InitialCreate.cs",
-              "DocumentMoniker": "C:\\Users\\Sindauto\\Desktop\\AgendamentoAPI\\AgendamentoAPI\\Migrations\\20250430163149_InitialCreate.cs",
-              "RelativeDocumentMoniker": "Migrations\\20250430163149_InitialCreate.cs",
-              "ToolTip": "C:\\Users\\Sindauto\\Desktop\\AgendamentoAPI\\AgendamentoAPI\\Migrations\\20250430163149_InitialCreate.cs",
-              "RelativeToolTip": "Migrations\\20250430163149_InitialCreate.cs",
-              "ViewState": "AgIAAFgAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-30T16:32:09.628Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "ApiContextModelSnapshot.cs",
-              "DocumentMoniker": "C:\\Users\\Sindauto\\Desktop\\AgendamentoAPI\\AgendamentoAPI\\Migrations\\ApiContextModelSnapshot.cs",
-              "RelativeDocumentMoniker": "Migrations\\ApiContextModelSnapshot.cs",
-              "ToolTip": "C:\\Users\\Sindauto\\Desktop\\AgendamentoAPI\\AgendamentoAPI\\Migrations\\ApiContextModelSnapshot.cs",
-              "RelativeToolTip": "Migrations\\ApiContextModelSnapshot.cs",
-              "ViewState": "AgIAAKYAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-30T16:31:59.917Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Clientes.cs",
-              "DocumentMoniker": "C:\\Users\\Sindauto\\Desktop\\AgendamentoAPI\\AgendamentoAPI\\Models\\Clientes.cs",
-              "RelativeDocumentMoniker": "Models\\Clientes.cs",
-              "ToolTip": "C:\\Users\\Sindauto\\Desktop\\AgendamentoAPI\\AgendamentoAPI\\Models\\Clientes.cs",
-              "RelativeToolTip": "Models\\Clientes.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-23T19:14:46.362Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "AgendamentoAPI",
-              "DocumentMoniker": "C:\\Users\\Sindauto\\Desktop\\AgendamentoAPI\\AgendamentoAPI\\AgendamentoAPI.csproj",
-              "RelativeDocumentMoniker": "AgendamentoAPI.csproj",
-              "ToolTip": "C:\\Users\\Sindauto\\Desktop\\AgendamentoAPI\\AgendamentoAPI\\AgendamentoAPI.csproj",
-              "RelativeToolTip": "AgendamentoAPI.csproj",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-04-26T14:35:11.812Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "appsettings.Development.json",
-              "DocumentMoniker": "C:\\Users\\Sindauto\\Desktop\\AgendamentoAPI\\AgendamentoAPI\\appsettings.Development.json",
-              "RelativeDocumentMoniker": "appsettings.Development.json",
-              "ToolTip": "C:\\Users\\Sindauto\\Desktop\\AgendamentoAPI\\AgendamentoAPI\\appsettings.Development.json",
-              "RelativeToolTip": "appsettings.Development.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-04-24T23:54:55.741Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\Users\\Sindauto\\Desktop\\AgendamentoAPI\\AgendamentoAPI\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
-              "ToolTip": "C:\\Users\\Sindauto\\Desktop\\AgendamentoAPI\\AgendamentoAPI\\Properties\\launchSettings.json",
-              "RelativeToolTip": "Properties\\launchSettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-04-24T23:54:22.708Z"
+              "$type": "Bookmark",
+              "Name": "ST:2:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
             },
             {
               "$type": "Bookmark",
@@ -454,6 +196,351 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AgendamentoAPI",
+              "DocumentMoniker": "C:\\Users\\mv834\\Desktop\\AgendamentoAPi\\AgendamentoApi\\AgendamentoAPI.csproj",
+              "RelativeDocumentMoniker": "AgendamentoAPI.csproj",
+              "ToolTip": "C:\\Users\\mv834\\Desktop\\AgendamentoAPi\\AgendamentoApi\\AgendamentoAPI.csproj",
+              "RelativeToolTip": "AgendamentoAPI.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-10T18:21:51.627Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\mv834\\Desktop\\AgendamentoAPi\\AgendamentoApi\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\mv834\\Desktop\\AgendamentoAPi\\AgendamentoApi\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-23T19:09:06.155Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AgendamentoController.cs",
+              "DocumentMoniker": "C:\\Users\\mv834\\Desktop\\AgendamentoAPi\\AgendamentoApi\\Controllers\\AgendamentoController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AgendamentoController.cs",
+              "ToolTip": "C:\\Users\\mv834\\Desktop\\AgendamentoAPi\\AgendamentoApi\\Controllers\\AgendamentoController.cs",
+              "RelativeToolTip": "Controllers\\AgendamentoController.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAIwEYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T16:42:20.273Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AgendamentoAPI.http",
+              "DocumentMoniker": "C:\\Users\\mv834\\Desktop\\AgendamentoAPi\\AgendamentoApi\\AgendamentoAPI.http",
+              "RelativeDocumentMoniker": "AgendamentoAPI.http",
+              "ToolTip": "C:\\Users\\mv834\\Desktop\\AgendamentoAPi\\AgendamentoApi\\AgendamentoAPI.http",
+              "RelativeToolTip": "AgendamentoAPI.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2025-04-30T16:49:53.632Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\mv834\\Desktop\\AgendamentoAPi\\AgendamentoApi\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\mv834\\Desktop\\AgendamentoAPi\\AgendamentoApi\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-24T23:54:22.708Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IClienteRepository.cs",
+              "DocumentMoniker": "C:\\Users\\mv834\\Desktop\\AgendamentoAPi\\AgendamentoApi\\Interface\\IClienteRepository.cs",
+              "RelativeDocumentMoniker": "Interface\\IClienteRepository.cs",
+              "ToolTip": "C:\\Users\\mv834\\Desktop\\AgendamentoAPi\\AgendamentoApi\\Interface\\IClienteRepository.cs",
+              "RelativeToolTip": "Interface\\IClienteRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T17:43:10.861Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IAgendamentoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\mv834\\Desktop\\AgendamentoAPi\\AgendamentoApi\\Interface\\IAgendamentoRepository.cs",
+              "RelativeDocumentMoniker": "Interface\\IAgendamentoRepository.cs",
+              "ToolTip": "C:\\Users\\mv834\\Desktop\\AgendamentoAPi\\AgendamentoApi\\Interface\\IAgendamentoRepository.cs",
+              "RelativeToolTip": "Interface\\IAgendamentoRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T16:26:31.473Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Clientes.cs",
+              "DocumentMoniker": "C:\\Users\\mv834\\Desktop\\AgendamentoAPi\\AgendamentoApi\\Models\\Clientes.cs",
+              "RelativeDocumentMoniker": "Models\\Clientes.cs",
+              "ToolTip": "C:\\Users\\mv834\\Desktop\\AgendamentoAPi\\AgendamentoApi\\Models\\Clientes.cs",
+              "RelativeToolTip": "Models\\Clientes.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-23T19:14:46.362Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ProfissionalRepositorio.cs",
+              "DocumentMoniker": "C:\\Users\\mv834\\Desktop\\AgendamentoAPi\\AgendamentoApi\\Repository\\ProfissionalRepositorio.cs",
+              "RelativeDocumentMoniker": "Repository\\ProfissionalRepositorio.cs",
+              "ToolTip": "C:\\Users\\mv834\\Desktop\\AgendamentoAPi\\AgendamentoApi\\Repository\\ProfissionalRepositorio.cs",
+              "RelativeToolTip": "Repository\\ProfissionalRepositorio.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC8AAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-26T14:45:41.911Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AgendamentoRepositorio.cs",
+              "DocumentMoniker": "C:\\Users\\mv834\\Desktop\\AgendamentoAPi\\AgendamentoApi\\Repository\\AgendamentoRepositorio.cs",
+              "RelativeDocumentMoniker": "Repository\\AgendamentoRepositorio.cs",
+              "ToolTip": "C:\\Users\\mv834\\Desktop\\AgendamentoAPi\\AgendamentoApi\\Repository\\AgendamentoRepositorio.cs",
+              "RelativeToolTip": "Repository\\AgendamentoRepositorio.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAIwBMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T16:23:11.384Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ClienteController.cs",
+              "DocumentMoniker": "C:\\Users\\mv834\\Desktop\\AgendamentoAPi\\AgendamentoApi\\Controllers\\ClienteController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ClienteController.cs",
+              "ToolTip": "C:\\Users\\mv834\\Desktop\\AgendamentoAPi\\AgendamentoApi\\Controllers\\ClienteController.cs",
+              "RelativeToolTip": "Controllers\\ClienteController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T17:42:46.375Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "IServicoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\mv834\\Desktop\\AgendamentoAPi\\AgendamentoApi\\Interface\\IServicoRepository.cs",
+              "RelativeDocumentMoniker": "Interface\\IServicoRepository.cs",
+              "ToolTip": "C:\\Users\\mv834\\Desktop\\AgendamentoAPi\\AgendamentoApi\\Interface\\IServicoRepository.cs",
+              "RelativeToolTip": "Interface\\IServicoRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T20:34:05.059Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ClienteRepositorio.cs",
+              "DocumentMoniker": "C:\\Users\\mv834\\Desktop\\AgendamentoAPi\\AgendamentoApi\\Repository\\ClienteRepositorio.cs",
+              "RelativeDocumentMoniker": "Repository\\ClienteRepositorio.cs",
+              "ToolTip": "C:\\Users\\mv834\\Desktop\\AgendamentoAPi\\AgendamentoApi\\Repository\\ClienteRepositorio.cs",
+              "RelativeToolTip": "Repository\\ClienteRepositorio.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwAIAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T17:52:33.6Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ServicoRepositorio.cs",
+              "DocumentMoniker": "C:\\Users\\mv834\\Desktop\\AgendamentoAPi\\AgendamentoApi\\Repository\\ServicoRepositorio.cs",
+              "RelativeDocumentMoniker": "Repository\\ServicoRepositorio.cs",
+              "ToolTip": "C:\\Users\\mv834\\Desktop\\AgendamentoAPi\\AgendamentoApi\\Repository\\ServicoRepositorio.cs",
+              "RelativeToolTip": "Repository\\ServicoRepositorio.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T20:33:46.627Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ServicoController.cs",
+              "DocumentMoniker": "C:\\Users\\mv834\\Desktop\\AgendamentoAPi\\AgendamentoApi\\Controllers\\ServicoController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ServicoController.cs",
+              "ToolTip": "C:\\Users\\mv834\\Desktop\\AgendamentoAPi\\AgendamentoApi\\Controllers\\ServicoController.cs",
+              "RelativeToolTip": "Controllers\\ServicoController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T21:22:55.667Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Agendamentos.cs",
+              "DocumentMoniker": "C:\\Users\\mv834\\Desktop\\AgendamentoAPi\\AgendamentoApi\\Models\\Agendamentos.cs",
+              "RelativeDocumentMoniker": "Models\\Agendamentos.cs",
+              "ToolTip": "C:\\Users\\mv834\\Desktop\\AgendamentoAPi\\AgendamentoApi\\Models\\Agendamentos.cs",
+              "RelativeToolTip": "Models\\Agendamentos.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-23T19:21:41.427Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ProfissionaisController.cs",
+              "DocumentMoniker": "C:\\Users\\mv834\\Desktop\\AgendamentoAPi\\AgendamentoApi\\Controllers\\ProfissionaisController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProfissionaisController.cs",
+              "ToolTip": "C:\\Users\\mv834\\Desktop\\AgendamentoAPi\\AgendamentoApi\\Controllers\\ProfissionaisController.cs",
+              "RelativeToolTip": "Controllers\\ProfissionaisController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T20:04:43.843Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ApisContext.cs",
+              "DocumentMoniker": "C:\\Users\\mv834\\Desktop\\AgendamentoAPi\\AgendamentoApi\\Context\\ApisContext.cs",
+              "RelativeDocumentMoniker": "Context\\ApisContext.cs",
+              "ToolTip": "C:\\Users\\mv834\\Desktop\\AgendamentoAPi\\AgendamentoApi\\Context\\ApisContext.cs",
+              "RelativeToolTip": "Context\\ApisContext.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAA4wAsAAABRAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T10:51:15.655Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "TipoServico.cs",
+              "DocumentMoniker": "C:\\Users\\mv834\\Desktop\\AgendamentoAPi\\AgendamentoApi\\Models\\TipoServico.cs",
+              "RelativeDocumentMoniker": "Models\\TipoServico.cs",
+              "ToolTip": "C:\\Users\\mv834\\Desktop\\AgendamentoAPi\\AgendamentoApi\\Models\\TipoServico.cs",
+              "RelativeToolTip": "Models\\TipoServico.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-23T19:19:55.701Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "profissional_tipo_servico.cs",
+              "DocumentMoniker": "C:\\Users\\mv834\\Desktop\\AgendamentoAPi\\AgendamentoApi\\Models\\profissional_tipo_servico.cs",
+              "RelativeDocumentMoniker": "Models\\profissional_tipo_servico.cs",
+              "ToolTip": "C:\\Users\\mv834\\Desktop\\AgendamentoAPi\\AgendamentoApi\\Models\\profissional_tipo_servico.cs",
+              "RelativeToolTip": "Models\\profissional_tipo_servico.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T23:36:06.472Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Profissionais.cs",
+              "DocumentMoniker": "C:\\Users\\mv834\\Desktop\\AgendamentoAPi\\AgendamentoApi\\Models\\Profissionais.cs",
+              "RelativeDocumentMoniker": "Models\\Profissionais.cs",
+              "ToolTip": "C:\\Users\\mv834\\Desktop\\AgendamentoAPi\\AgendamentoApi\\Models\\Profissionais.cs",
+              "RelativeToolTip": "Models\\Profissionais.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAYwA4AAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-23T19:16:40.7Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Service.cs",
+              "DocumentMoniker": "C:\\Users\\mv834\\Desktop\\AgendamentoAPi\\AgendamentoApi\\Service\\Service.cs",
+              "RelativeDocumentMoniker": "Service\\Service.cs",
+              "ToolTip": "C:\\Users\\mv834\\Desktop\\AgendamentoAPi\\AgendamentoApi\\Service\\Service.cs",
+              "RelativeToolTip": "Service\\Service.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T17:37:25.798Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Usuarios.cs",
+              "DocumentMoniker": "C:\\Users\\mv834\\Desktop\\AgendamentoAPi\\AgendamentoApi\\Models\\Usuarios.cs",
+              "RelativeDocumentMoniker": "Models\\Usuarios.cs",
+              "ToolTip": "C:\\Users\\mv834\\Desktop\\AgendamentoAPi\\AgendamentoApi\\Models\\Usuarios.cs",
+              "RelativeToolTip": "Models\\Usuarios.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAIwA0AAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-23T19:13:12.313Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "20250430163149_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\mv834\\Desktop\\AgendamentoAPi\\AgendamentoApi\\Migrations\\20250430163149_InitialCreate.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250430163149_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\mv834\\Desktop\\AgendamentoAPi\\AgendamentoApi\\Migrations\\20250430163149_InitialCreate.cs",
+              "RelativeToolTip": "Migrations\\20250430163149_InitialCreate.cs",
+              "ViewState": "AgIAAFgAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T16:32:09.628Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "ApiContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\mv834\\Desktop\\AgendamentoAPi\\AgendamentoApi\\Migrations\\ApiContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "Migrations\\ApiContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\mv834\\Desktop\\AgendamentoAPi\\AgendamentoApi\\Migrations\\ApiContextModelSnapshot.cs",
+              "RelativeToolTip": "Migrations\\ApiContextModelSnapshot.cs",
+              "ViewState": "AgIAAKYAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T16:31:59.917Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "AgendamentoAPI",
+              "DocumentMoniker": "C:\\Users\\mv834\\Desktop\\AgendamentoAPi\\AgendamentoApi\\AgendamentoAPI.csproj",
+              "RelativeDocumentMoniker": "AgendamentoAPI.csproj",
+              "ToolTip": "C:\\Users\\mv834\\Desktop\\AgendamentoAPi\\AgendamentoApi\\AgendamentoAPI.csproj",
+              "RelativeToolTip": "AgendamentoAPI.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-04-26T14:35:11.812Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\mv834\\Desktop\\AgendamentoAPi\\AgendamentoApi\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "appsettings.Development.json",
+              "ToolTip": "C:\\Users\\mv834\\Desktop\\AgendamentoAPi\\AgendamentoApi\\appsettings.Development.json",
+              "RelativeToolTip": "appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-24T23:54:55.741Z"
             }
           ]
         }

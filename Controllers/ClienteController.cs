@@ -7,8 +7,6 @@ namespace AgendamentoAPI.Controllers
     [ApiController]
     [Route("api/[controller]")]
 
-
-
     public class ClienteController : ControllerBase
     {
         private readonly IClienteRepository clienteRepository;

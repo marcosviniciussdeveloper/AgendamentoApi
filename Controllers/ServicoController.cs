@@ -24,7 +24,7 @@ namespace AgendamentoAPI.Controllers
         }
 
         [HttpPost("CriarServiço")]
-        public async Task<ActionResult> CriarServico(Servico servico)
+        public async Task<ActionResult> CriarServico(TipoServico servico)
         {
             _ServicoRepository.Incluir(servico); 
             if (await _ServicoRepository.SaveAllChangesAsync())
@@ -43,5 +43,47 @@ namespace AgendamentoAPI.Controllers
                 message = "Erro ao criar o serviço"
             });
         }
+
+        [HttpPut("AtualizarServiço")]
+
+        public async Task<ActionResult> AtualizarServico (TipoServico servico)
+        {
+            _ServicoRepository.Alterar(servico);
+            if (await _ServicoRepository.SaveAllChangesAsync())
+            {
+                return Ok(new
+                {
+                    success = true,
+                    message = "Serviço atualizado com sucesso"
+                });
+            }
+            return BadRequest(new
+            {
+                success = false,
+                message = "Erro ao atualizar o serviço"
+            });
+        }
+
+
+        [HttpDelete("DeletarServiço)")]
+        public async Task<ActionResult> DeletarServico(int id)
+        {
+            _ServicoRepository.Excluir(id);
+            if (await _ServicoRepository.SaveAllChangesAsync())
+            {
+                return Ok(new
+                {
+                    success = true,
+                    message = "Serviço excluído com sucesso"
+                });
+            }
+
+            return BadRequest(new
+            {
+                success = false,
+                message = "Erro ao excluir o serviço"
+            });
+        }
     }
 }
+
