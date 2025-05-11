@@ -1,0 +1,42 @@
+version: '3.8'
+
+services:
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "5000:80"
+    depends_on:
+      mysql:
+        condition: service_healthy
+    environment:
+      - ConnectionStrings__Default=Server=mysql;Database=agendamentoapi;Uid=root;Pwd=suporte1020;SslMode=None
+    volumes:
+      - type: bind
+        source: C:/Users/mv834/AppData/Roaming/Microsoft/UserSecrets
+        target: /root/.microsoft/usersecrets
+        read_only: true
+      - type: bind
+        source: C:/Users/mv834/AppData/Roaming/ASP.NET/Https
+        target: /root/.aspnet/https
+        read_only: true
+
+  mysql:
+    image: mysql:8.0
+    environment:
+      - MYSQL_ROOT_PASSWORD=suporte1020
+      - MYSQL_DATABASE=agendamentoapi
+    ports:
+      - "3307:3306"
+    volumes:
+      - mysql_data:/var/lib/mysql
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost", "-psuporte1020"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+
+volumes:
+  mysql_data:
+    driver: local
