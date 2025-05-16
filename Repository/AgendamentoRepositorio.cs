@@ -18,9 +18,9 @@ namespace AgendamentoAPI.Repository
             _Context.Entry(agendamento).State = EntityState.Modified;
         }
 
-        public void Excluir(int id)
+        public void Excluir(Guid id)
         {
-            _Context.Agendamentos.Remove(new Agendamento { Id = id });
+         _Context.Agendamentos.Remove(new Agendamento { Id = id });
         }
 
         public void Incluir(Agendamento agendamento)

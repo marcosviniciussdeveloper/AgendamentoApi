@@ -53,9 +53,9 @@ namespace AgendamentoAPI.Controllers
         }
 
         [HttpDelete("DeletarAgendamento")]
-        public async Task<ActionResult> DeletarAgendamento(int id)
+        public async Task<ActionResult> DeletarAgendamento(Guid id)
         {
-            _AgendamentoRepository.Excluir(id);
+            _AgendamentoRepository.Excluir( id);
             if (await _AgendamentoRepository.SaveAllChangesAsync())
             {
                 return Ok(new

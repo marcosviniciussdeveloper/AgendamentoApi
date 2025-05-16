@@ -6,7 +6,7 @@
 
         void Alterar(TipoServico servico);
 
-        void Excluir(int id);
+        void Excluir(Guid id);
 
         Task<bool> SaveAllChangesAsync();
         Task<IEnumerable<TipoServico>> SelecionarTodos();

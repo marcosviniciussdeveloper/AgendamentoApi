@@ -1,6 +1,5 @@
 ﻿using System.Reflection.Metadata.Ecma335;
 using AgendamentoAPI.Interface;
-using AgendamentoAPI.Migrations;
 using AgendamentoAPI.Repository;
 using Microsoft.AspNetCore.Mvc;
 
@@ -66,7 +65,7 @@ namespace AgendamentoAPI.Controllers
 
 
         [HttpDelete("DeletarServiço)")]
-        public async Task<ActionResult> DeletarServico(int id)
+        public async Task<ActionResult> DeletarServico(Guid id)
         {
             _ServicoRepository.Excluir(id);
             if (await _ServicoRepository.SaveAllChangesAsync())

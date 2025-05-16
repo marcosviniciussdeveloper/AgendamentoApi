@@ -53,7 +53,7 @@ namespace AgendamentoAPI.Controllers
         }
 
         [HttpDelete("DeletarCliente")]
-        public async Task<ActionResult> DeletarCliente(int id)
+        public async Task<ActionResult> DeletarCliente(Guid id)
         {
             clienteRepository.Deletar(id);
             if (await clienteRepository.SaveAllChangesAsync())

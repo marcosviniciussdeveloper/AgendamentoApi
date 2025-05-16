@@ -19,9 +19,14 @@ namespace AgendamentoAPI.Repository
             _Context.Entry(servico).State = EntityState.Modified;
         }
 
-        public void Excluir(int id)
+        public void Excluir(Guid id)
         {
             _Context.Servicos.Remove(new TipoServico { Id = id }); 
+        }
+
+        public void Excluir(int id)
+        {
+            throw new NotImplementedException();
         }
 
         public void Incluir(TipoServico servico)

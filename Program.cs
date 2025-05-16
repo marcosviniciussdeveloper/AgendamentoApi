@@ -1,22 +1,21 @@
-using AgendamentoAPI.Context;
+﻿using AgendamentoAPI.Context;
 using AgendamentoAPI.Interface;
 using AgendamentoAPI.Repository;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore.Internal; 
+using Microsoft.EntityFrameworkCore.Internal;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Corrected code: Use the DbContextOptionsBuilder to configure MySQL
+// Configuração do banco de dados MySQL
 builder.Services.AddDbContext<ApiContext>(options =>
     options.UseMySql(
-        builder.Configuration.GetConnectionString("Default"),
+        builder.Configuration.GetConnectionString("DefaultConnection"),
         new MySqlServerVersion(new Version(8, 0, 42))
     )
 );
 
-// Add services to the container.  
+// Serviços e repositórios
 builder.Services.AddControllers();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle  
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
@@ -26,22 +25,30 @@ builder.Services.AddScoped<IAgendamentoRepository, AgendamentoRepositorio>();
 builder.Services.AddScoped<IClienteRepository, ClienteRepositorio>();
 builder.Services.AddSingleton<DbContextServices>();
 
-// Fix: Remove the duplicate `var app` declaration
+// ⚠️ Só aplica configuração manual de portas se estiver rodando em produção (ex: Docker)
+//builder.WebHost.ConfigureKestrel(options =>
+//{
+  //  options.ListenAnyIP(8080); // Apenas HTTP, funciona 100% no Docker
+//});
+   
+
+
+// Constrói a aplicação
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.  
-if (app.Environment.IsDevelopment())
-{
+// Pipeline HTTP
+
     app.UseSwagger();
     app.UseSwaggerUI();
 
-}
 
 app.UseHttpsRedirection();
 
 app.UseAuthorization();
 
 app.UseCors();
+
 app.MapControllers();
 
 app.Run();
+

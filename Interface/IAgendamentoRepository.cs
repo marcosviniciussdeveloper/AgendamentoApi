@@ -6,7 +6,7 @@
 
         void Alterar(Agendamento agendamento);
 
-        void Excluir(int id);
+        void Excluir(Guid id);
 
         Task<IEnumerable<Agendamento>> SelecionarTodos();
 

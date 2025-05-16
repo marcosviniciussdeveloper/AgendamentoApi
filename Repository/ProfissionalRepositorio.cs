@@ -16,7 +16,7 @@ namespace AgendamentoAPI.Repository
 
         public void Alterar(Profissional profissional)
         {
-           _Context.Entry(profissional).State = EntityState.Modified;
+            _Context.Entry(profissional).State = EntityState.Modified;
         }
 
         public void Incluir(Profissional profissional)
@@ -34,22 +34,23 @@ namespace AgendamentoAPI.Repository
             return await _Context.Profissionais.ToListAsync();
         }
 
-        public async Task<Profissional> SelecionarByPk(int id)
+
+        public void Excluir(Guid Id)
         {
-            return await _Context.Profissionais.Where(x => x.Id == id).FirstOrDefaultAsync();
+            _Context.Profissionais.Remove(new Profissional { Id = Id });
         }
 
-        public void Excluir(int Id)
-        {
-            var profissional = _Context.Profissionais.Find(Id);
+  
 
-            if ((profissional != null))
-            {
-                _Context.Profissionais.Remove(profissional);
-            }
-            
+        public async  Task<Profissional> SelecionarByPk(Guid id)
+        {
+           return await _Context.Profissionais
+                .Include(x => x.Servicos)
+                .FirstOrDefaultAsync(x => x.Id == id);
         }
-    } 
+    }
+
 }
+    
 
-        
+    

@@ -1,24 +1,25 @@
 ﻿
 using System.ComponentModel.DataAnnotations.Schema;
 using System.ComponentModel.DataAnnotations;
+using static Microsoft.EntityFrameworkCore.DbLoggerCategory;
 
 [Table("agendamentos")]
 public class Agendamento
 {
     [Key]
-    public int Id { get; set; }
-
+    public Guid Id { get; set; } = Guid.NewGuid();
+   
     [Required]
     public DateTime DataHora { get; set; }
 
     [Required]
     [StringLength(50)]
-    public string Status { get; set; } 
+    public string Status { get; set; }
+   
 
- 
-    public int ClienteId { get; set; }
-    public int ProfissionalId { get; set; }
-    public int ServicoId { get; set; }
+    public Guid ClienteId { get; set; }
+    public Guid ProfissionalId { get; set; }
+    public Guid ServicoId { get; set; }
 
   
     public virtual Cliente Cliente { get; set; }

@@ -19,7 +19,7 @@ namespace AgendamentoAPI.Repository
              _Context.Clientes.Add(cliente);
         }
 
-        public void Deletar(int id)
+        public void Deletar(Guid id)
         {
             _Context.Clientes.Remove(new Cliente { Id = id });
         }

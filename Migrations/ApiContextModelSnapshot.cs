@@ -24,14 +24,12 @@ namespace AgendamentoAPI.Migrations
 
             modelBuilder.Entity("Agendamento", b =>
                 {
-                    b.Property<int>("Id")
+                    b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
+                        .HasColumnType("char(36)");
 
-                    MySqlPropertyBuilderExtensions.UseMySqlIdentityColumn(b.Property<int>("Id"));
-
-                    b.Property<int>("ClienteId")
-                        .HasColumnType("int");
+                    b.Property<Guid>("ClienteId")
+                        .HasColumnType("char(36)");
 
                     b.Property<DateTime>("DataHora")
                         .HasColumnType("datetime(6)");
@@ -40,11 +38,11 @@ namespace AgendamentoAPI.Migrations
                         .IsRequired()
                         .HasColumnType("longtext");
 
-                    b.Property<int>("ProfissionalId")
-                        .HasColumnType("int");
+                    b.Property<Guid>("ProfissionalId")
+                        .HasColumnType("char(36)");
 
-                    b.Property<int>("ServicoId")
-                        .HasColumnType("int");
+                    b.Property<Guid>("ServicoId")
+                        .HasColumnType("char(36)");
 
                     b.Property<string>("Status")
                         .IsRequired()
@@ -64,11 +62,9 @@ namespace AgendamentoAPI.Migrations
 
             modelBuilder.Entity("Cliente", b =>
                 {
-                    b.Property<int>("Id")
+                    b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    MySqlPropertyBuilderExtensions.UseMySqlIdentityColumn(b.Property<int>("Id"));
+                        .HasColumnType("char(36)");
 
                     b.Property<string>("Email")
                         .IsRequired()
@@ -92,11 +88,9 @@ namespace AgendamentoAPI.Migrations
 
             modelBuilder.Entity("Profissional", b =>
                 {
-                    b.Property<int>("Id")
+                    b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    MySqlPropertyBuilderExtensions.UseMySqlIdentityColumn(b.Property<int>("Id"));
+                        .HasColumnType("char(36)");
 
                     b.Property<string>("Cpf")
                         .IsRequired()
@@ -130,11 +124,11 @@ namespace AgendamentoAPI.Migrations
 
             modelBuilder.Entity("ProfissionalTipoServico", b =>
                 {
-                    b.Property<int>("ProfissionalId")
-                        .HasColumnType("int");
+                    b.Property<Guid>("ProfissionalId")
+                        .HasColumnType("char(36)");
 
-                    b.Property<int>("ServicoId")
-                        .HasColumnType("int");
+                    b.Property<Guid>("ServicoId")
+                        .HasColumnType("char(36)");
 
                     b.HasKey("ProfissionalId", "ServicoId");
 
@@ -145,11 +139,9 @@ namespace AgendamentoAPI.Migrations
 
             modelBuilder.Entity("TipoServico", b =>
                 {
-                    b.Property<int>("Id")
+                    b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    MySqlPropertyBuilderExtensions.UseMySqlIdentityColumn(b.Property<int>("Id"));
+                        .HasColumnType("char(36)");
 
                     b.Property<int>("DuracaoMinutos")
                         .HasColumnType("int");
@@ -169,22 +161,20 @@ namespace AgendamentoAPI.Migrations
 
             modelBuilder.Entity("Usuario", b =>
                 {
-                    b.Property<int>("Id")
+                    b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
+                        .HasColumnType("char(36)");
 
-                    MySqlPropertyBuilderExtensions.UseMySqlIdentityColumn(b.Property<int>("Id"));
-
-                    b.Property<int?>("ClienteId")
-                        .HasColumnType("int");
+                    b.Property<Guid>("ClienteId")
+                        .HasColumnType("char(36)");
 
                     b.Property<string>("Login")
                         .IsRequired()
                         .HasMaxLength(50)
                         .HasColumnType("varchar(50)");
 
-                    b.Property<int?>("ProfissionalId")
-                        .HasColumnType("int");
+                    b.Property<Guid>("ProfissionalId")
+                        .HasColumnType("char(36)");
 
                     b.Property<string>("SenhaHash")
                         .IsRequired()
@@ -258,12 +248,14 @@ namespace AgendamentoAPI.Migrations
                     b.HasOne("Cliente", "Cliente")
                         .WithOne()
                         .HasForeignKey("Usuario", "ClienteId")
-                        .OnDelete(DeleteBehavior.Restrict);
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
 
                     b.HasOne("Profissional", "Profissional")
                         .WithOne()
                         .HasForeignKey("Usuario", "ProfissionalId")
-                        .OnDelete(DeleteBehavior.Restrict);
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
 
                     b.Navigation("Cliente");
 

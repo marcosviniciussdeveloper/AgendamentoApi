@@ -4,9 +4,9 @@
     {
         void Incluir(Profissional profissional);
         void Alterar(Profissional profissional);
-        void Excluir(int Id);
+        void Excluir(Guid Id);
 
-        Task<Profissional> SelecionarByPk(int id);
+        Task<Profissional> SelecionarByPk(Guid id);
         Task<IEnumerable<Profissional>> SelecionarTodos();
 
         Task<bool>SaveAllChangesAsync();

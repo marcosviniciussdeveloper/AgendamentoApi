@@ -62,7 +62,7 @@ namespace AgendamentoAPI.Controllers
         }
 
         [HttpDelete("DeletarProfissional")]
-        public async Task<IActionResult> ExcluirProfissional(int Id)
+        public async Task<IActionResult> ExcluirProfissional(Guid Id)
         {
         
             {

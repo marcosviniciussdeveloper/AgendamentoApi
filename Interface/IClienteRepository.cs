@@ -7,7 +7,7 @@
 
         void Editar(Cliente cliente);
 
-        void Deletar(int id);
+        void Deletar(Guid id);
 
         Task<IEnumerable<Cliente>> ObterTodos();
 

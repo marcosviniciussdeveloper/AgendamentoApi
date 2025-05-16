@@ -5,7 +5,7 @@ using System.ComponentModel.DataAnnotations;
 public class Usuario
 {
     [Key]
-    public int Id { get; set; }
+    public Guid Id { get; set; } = Guid.NewGuid();
 
     [Required]
     [StringLength(50)]
@@ -19,8 +19,8 @@ public class Usuario
     public string Tipo { get; set; } 
 
   
-    public int? ClienteId { get; set; }
-    public int? ProfissionalId { get; set; }
+    public Guid  ClienteId { get; set; }
+    public Guid ProfissionalId { get; set; }
 
 
     public virtual Cliente Cliente { get; set; }

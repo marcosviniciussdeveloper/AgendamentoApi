@@ -114,7 +114,6 @@ C:\Users\Sindauto\Desktop\AgendamentoAPI\AgendamentoAPI\bin\Debug\net8.0\ru\Micr
 C:\Users\Sindauto\Desktop\AgendamentoAPI\AgendamentoAPI\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\Sindauto\Desktop\AgendamentoAPI\AgendamentoAPI\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\Sindauto\Desktop\AgendamentoAPI\AgendamentoAPI\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\Sindauto\Desktop\AgendamentoAPI\AgendamentoAPI\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 C:\Users\mv834\Desktop\AgendamentoAPi\AgendamentoApi\bin\Debug\net8.0\appsettings.Development.json
 C:\Users\mv834\Desktop\AgendamentoAPi\AgendamentoApi\bin\Debug\net8.0\appsettings.json
 C:\Users\mv834\Desktop\AgendamentoAPi\AgendamentoApi\bin\Debug\net8.0\AgendamentoAPI.staticwebassets.endpoints.json
